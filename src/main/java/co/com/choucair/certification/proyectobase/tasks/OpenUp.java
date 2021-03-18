@@ -7,9 +7,8 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
 public class OpenUp implements Task {
+
     private ChoucairAcademyPage choucairAcademyPage;
-
-
 
     @Override
     public <T extends Actor> void performAs(T actor) {

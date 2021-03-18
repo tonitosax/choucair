@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/academyChoucair.feature",
         tags = "@scenario1",
-        glue = "co.com.choucair.cartification.proyectobase.stepdefinitions",
+        glue = "co.com.choucair.certification.proyectobase.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 
 public class RunnerTags {
